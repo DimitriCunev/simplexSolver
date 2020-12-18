@@ -119,6 +119,7 @@ function simplex(arr,cb,po,co,n,ress,oix,fox){
     
         } else {
             console.log(`No positives found, aborting.`)
+            showStep({x:100,y:((y+2)*30)*(n+1)},arr,cb,po,co,res,oi,fxo)
         }
     } else {
         console.log('\n\n[SUCCESS] Stopped algorithm, found solution.')
