@@ -15,7 +15,7 @@ function setup() {
   button.position(input1.x + input1.width+20, 65);
   button.mousePressed(greet);
 
-  greeting = createElement('h2', 'Rezolvarea problemelor de min/max cu metoda Simplex.<br>Realizat de Cunev S. Dmitri  -- https://github.com/DimitriCunev<br>Prof. Marius Spinu');
+  greeting = createElement('h2', 'Rezolvarea problemelor de min/max cu metoda Simplex.<br>Realizat de Cunev S. Dmitri  -- https://github.com/DimitriCunev<br>Lect. univ. dr. Marius Spinu');
   greeting.position(20, 155);
 
   textAlign(CENTER);
