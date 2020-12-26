@@ -2,7 +2,7 @@
 
 
 //----------------Simplex Solver by Cunev S.Dmitri----------------
-// Table solving reproduction.
+// Table solving reproduction
 
 let transpose = m => m[0].map((x,i) => m.map(x => x[i]))
 
